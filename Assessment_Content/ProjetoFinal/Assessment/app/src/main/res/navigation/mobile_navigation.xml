@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.teste.ui.home.Home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_Cadastro"
+        android:name="com.example.teste.Cadastro"
+        android:label="@string/cadastro"
+        tools:layout="@layout/fragment_cadastro"
+        />
+    <fragment
+        android:id="@+id/nav_Informacoes"
+        android:name="com.example.teste.Informacoes_Pessoais"
+        android:label="@string/Informacoes"
+        tools:layout="@layout/fragment_informacoes__pessoais"
+        />
+    <fragment
+        android:id="@+id/nav_experiecia"
+        android:name="com.example.teste.Experiencia"
+        android:label="@string/experiencia"
+        tools:layout="@layout/fragment_experiencia"
+        />
+    <fragment
+        android:id="@+id/nav_Cursos"
+        android:name="com.example.teste.Cursos"
+        android:label="@string/Cursos"
+        tools:layout="@layout/fragment_cursos"
+        />
+    <fragment
+        android:id="@+id/nav_publicacoes"
+        android:name="com.example.teste.Publicacoes"
+        android:label="@string/Publicacoes"
+        tools:layout="@layout/fragment_publicacoes"
+        />
+
+
+</navigation>
